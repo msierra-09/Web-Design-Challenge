@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Latitude</title>
+  <title>Wind Speed</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -16,22 +16,22 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="landing.html">Home</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
         </button>
-    
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="landing.html">Latitude<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="landing.html">Latitude<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="data.html">Data</a>
+                <a class="nav-link" href="data.html">Data</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="visualization.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="visualization.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Plots
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="max_temperature.html">Max Temperature</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="humidity.html">Humidity</a>
@@ -39,24 +39,23 @@
                 <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
-              </div>
+                </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="comparisons.html">Comparison</a>
+                <a class="nav-link" href="comparisons.html">Comparison</a>
             </li>
-          </ul>
+            </ul>
         </div>
-      </nav>
-
+        </nav>
   <div class="container">
     <div class="jumbotron">
-      <h1 class="display-4">Max Temperature</h1>
-      <p class="lead">As expected, the weather becomes significantly warmer as one approaches the equator (0 Degree Latitude). More interestingly, however, is the fact that Southern Hemisphere tends to be warmer this time of year than Northern Hemisphere. This may be due to the tilt of the earth at the time of the year that the data was gathered.</p>
+      <h1 class="display-4">Wind Speed</h1>
+      <p class="lead">There is no strong association between latitude and wind speed. There are, however, a few cities in the Northern Hemisphere that seem to experience high windspeeds (25 mph to 35 mph).</p>
       <hr class="my-4">
       <div class="row">
         <div class="col-lg-12">
           <div class="thumbnail">
-            <img src="Resources/Images/Latitude vs. Temperature.png" alt="..." class="img-thumbnail">
+            <img src="Resources/Images/Latitude vs. Wind.png" alt="..." class="img-thumbnail">
           </div>
     </div>
   </div>
